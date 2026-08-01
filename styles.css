@@ -107,4 +107,16 @@ nav {
     color: #243e63;
 }
 
+/* Landing page styles */
 
+.landing__content {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    width: 60%;
+    gap: 9px;
+}
+.landing__heading {
+    font-size: 38px;
+}
