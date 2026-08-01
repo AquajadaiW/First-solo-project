@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-    padding: 56px 0;
+    padding: 20px 0;
 }
 
 .row {
@@ -15,3 +15,57 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+figure {
+    all: unset;
+    display: flex;
+}
+
+/* Navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0 28px;
+}
+
+.nav__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    max-width: 200px;
+    
+}
+     
+
+.nav__img {
+    width: 20%;
+    padding: 0 7px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+   
+}
+
+.nav__links--right {
+    padding: 0 10px;
+}
+.nav__link {
+    font-size: 16px;
+    font-weight:bold
+   
+  
+}
+.nav__link a{
+    text-decoration: none;
+    color: #243e63;
+}
+
