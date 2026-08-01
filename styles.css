@@ -35,6 +35,7 @@ section {
 p{
     color:#243e63;
     line-height: 1.5;
+    letter-spacing: 0.6px;
 }
 
 .btn {
@@ -77,13 +78,13 @@ nav {
      
 
 .nav__img {
-    width: 20%;
+    width: 28%;
     padding: 0 7px;
 }
 
 .nav__logo--name {
     color:#243e63;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .nav__links {
@@ -115,15 +116,20 @@ nav {
 /* Landing page styles */
 
 .landing__content {
-    padding: 20px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: space-between; 
     flex-direction: column;
     width: 60%;
-    gap: 9px;
+    gap: 6px;
 }
 .landing__heading {
     font-size: 38px;
+}
+
+.landing__p {
+    line-spacing: 1.5;
+    font-size: 16px;
 }
 
 .landing__sign-up--wrapper{
@@ -150,6 +156,20 @@ nav {
     transition: border-color 300ms;
 }
 
+.landing__sign-up::placeholder {
+    color: rgb(161, 165, 170);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.landing__sign-up:hover {
+    border-color: rgb(160, 174, 192);
+}
+.landing__sign-up:focus {
+    outline: none;
+    border-color: rgb(100, 21, 255);
+}
+
 .landing__btn {
     z-index: 2;
     margin: 8px;
@@ -162,4 +182,23 @@ nav {
     font-weight: 700;
     font-size: 16px;
     transition: all 300ms ease;
+}
+
+.landing__btn:hover {
+    background-color: #5525b6;
+    cursor: pointer;
+}
+
+
+.landing__customer--heading {
+    padding-top: 50px;
+    font-size: 12px;
+    color: rgb(161, 165, 170);
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.landing__customers{
+    opacity: 0.5;
+    width: 50%;
 }
