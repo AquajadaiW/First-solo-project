@@ -115,6 +115,7 @@ nav {
 
 /* Landing page styles */
 
+
 .landing__content {
     padding: 25px 0;
     display: flex;
@@ -201,4 +202,8 @@ nav {
 .landing__customers{
     opacity: 0.5;
     width: 50%;
+}
+
+.landing__img--wrapper {
+    width: 40%;
 }
