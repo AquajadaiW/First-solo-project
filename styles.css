@@ -21,6 +21,7 @@ figure {
     display: flex;
 }
 
+
 /* Navigation styles */
 
 nav {
@@ -28,7 +29,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0 24px;
+    
 }
 
 .nav__img--wrapper{
@@ -45,10 +46,15 @@ nav {
     padding: 0 7px;
 }
 
+.nav__logo--name {
+    color:#243e63;
+    font-weight: bolder;
+}
+
 .nav__links {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 48px;
     list-style: none;
     padding-left: 28%;
    
@@ -58,10 +64,12 @@ nav {
     padding: 0 10px;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .nav__link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .nav__link a{
