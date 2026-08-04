@@ -106,6 +106,7 @@ nav {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+
 }
 
 .nav__link a{
@@ -117,6 +118,7 @@ nav {
 
 #landing {
     display: flex;
+    padding: 0 24px;
 }
 
 .landing__content {
@@ -132,7 +134,7 @@ nav {
 }
 
 .landing__p {
-    line-spacing: 1.5;
+    letter-spacing: 1.5;
     font-size: 16px;
 }
 
