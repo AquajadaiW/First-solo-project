@@ -8,6 +8,8 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Inter Tight', sans-serif;
+    color:#243e63;
+    letter-spacing: 3px;
 }
 
 .container {
@@ -28,12 +30,13 @@ figure {
 section {
     padding : 0 30px;
 }
-.blue {
+.purple {
     color:#6415ff;
 }
 
+
 p{
-    color:#243e63;
+    color:#a0aec0;
     line-height: 1.5;
     letter-spacing: 0.6px;
 }
@@ -136,6 +139,7 @@ nav {
 .landing__p {
     letter-spacing: 1.5;
     font-size: 16px;
+    color:#243e63;
 }
 
 .landing__sign-up--wrapper{
@@ -216,4 +220,68 @@ nav {
 
 .landing__img {
     width: 100%;
+}
+
+
+/* Features */
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__title {
+text-align: center;
+font-size: 18px;
+
+}
+
+.section__heading {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.section__p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.features__row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 26vh;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.feature__wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: fit-content;
+    padding: 20px 0;
+    gap: 24px;
+}
+
+.feature__icon--wrapper {
+    border: 1px solid #dee2e7;
+    height: 42px;
+    width: 40px;
+    padding: 30px;
+    margin: 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+
+}
+
+.feature__heading {
+    margin: 2px;
+}
+
+.feature__p {
+    margin-top: 10px ;
 }
