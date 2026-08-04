@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
     font-family: 'Inter Tight', sans-serif;
     color:#243e63;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .container {
@@ -240,6 +240,7 @@ font-size: 18px;
 .section__heading {
     font-size: 42px;
     font-weight: 800;
+    text-align: center;
 }
 
 .section__p {
@@ -249,11 +250,17 @@ font-size: 18px;
 
 .features__row {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    gap: 20px;
-    height: 26vh;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 32px;
+    height: 100%;
+    padding: 20px;
     max-width: 1200px;
+    
+    
 }
 
 .feature__wrapper {
