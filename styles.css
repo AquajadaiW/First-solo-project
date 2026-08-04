@@ -90,7 +90,7 @@ nav {
 .nav__links {
     display: flex;
     justify-content: space-between;
-    gap: 48px;
+    gap: 52px;
     list-style: none;
     padding-left: 28%;
    
@@ -100,7 +100,7 @@ nav {
     padding: 0 10px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
 }
 .nav__link {
     font-size: 14px;
@@ -115,6 +115,9 @@ nav {
 
 /* Landing page styles */
 
+#landing {
+    display: flex;
+}
 
 .landing__content {
     padding: 25px 0;
@@ -205,5 +208,10 @@ nav {
 }
 
 .landing__img--wrapper {
-    width: 40%;
+
+    width: 50%;
+}
+
+.landing__img {
+    width: 100%;
 }
