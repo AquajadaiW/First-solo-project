@@ -230,6 +230,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 24vh;
 }
 
 .section__title {
@@ -247,7 +248,7 @@ color:#6415ff;
 
 .section__p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .features__row {
@@ -307,7 +308,7 @@ color:#6415ff;
     justify-content: space-between;
     gap: 80px;
     width:fit-content;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .quality__work--para {
@@ -315,20 +316,22 @@ color:#6415ff;
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
+    margin: 17px 0;
     padding-right: 30px;
     font-size: smaller;
 }
 
 .learn__btn {
-    width: 40%;
+    width: 30%;
 }
 .quality__work--img-wrapper {
     width: 50%;
+    margin-left: 26px;
 }
 
 .quality__work--img {
-    width: 100%;
-    
+    width: 80%;
+
 }
 
 .left {
@@ -336,5 +339,8 @@ color:#6415ff;
 }
 
 .margin {
-        margin: 2px;
+        margin: 10px 2px 0 0;
 }
+
+/* STEPS */
+
