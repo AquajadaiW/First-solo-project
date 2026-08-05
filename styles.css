@@ -41,6 +41,7 @@ p{
     letter-spacing: 0.6px;
 }
 
+
 .btn {
     background-color: #6415ff;
     color:white;
@@ -296,3 +297,44 @@ color:#6415ff;
 
 /* Quality Work */
 
+#quality__work {
+    max-width: 2400px;
+}
+
+.quality__work--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    width:fit-content;
+    padding: 0 20px;
+}
+
+.quality__work--para {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 30px;
+    font-size: smaller;
+}
+
+.learn__btn {
+    width: 40%;
+}
+.quality__work--img-wrapper {
+    width: 50%;
+}
+
+.quality__work--img {
+    width: 100%;
+    
+}
+
+.left {
+    text-align: left;
+}
+
+.margin {
+        margin: 2px;
+}
