@@ -20,6 +20,7 @@ html {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 figure {
@@ -344,3 +345,53 @@ color:#6415ff;
 
 /* STEPS */
 
+#steps {
+    margin-top: 22vh;
+    max-width: 1200px;
+    
+}
+
+.steps__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps__img--wrapper{
+    width: 100%;
+}
+
+.steps__img {
+    width: 80%;
+}
+
+.steps__desc--wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.steps__numb--wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.steps__numb{
+    font-size: 32px;
+    padding-bottom: 50px;
+    margin: 0;
+    font-weight: 700;
+    color:#a0aec0;
+    opacity: 0.4;
+}
+
+.steps__heading {
+    margin: 0;
+    font-size: 18px;
+    color:#243e63;
+}
+
+.steps__p {
+    font-size: 14px;
+    margin: 10px 0;
+}
