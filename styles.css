@@ -464,7 +464,8 @@ nav {
 
 .pricing__cards{
    display: flex;
-   width: 95%;
+   width: 100%;
+   max-width: 2400px;
    justify-content: space-between;
    align-items: center; 
    gap: 2rem;
@@ -479,6 +480,7 @@ nav {
     height: 100%;
     text-align: center; 
     border-radius: 8px;
+    color: black;
 }
 
 .price__border{
@@ -527,6 +529,11 @@ nav {
     list-style: none;
     line-height: 2.5;
     font-size: 14px;
+    color:#718096;
+}
+
+.white-words {
+    color: white;
 }
 
 .price__button--wrapper {
@@ -539,6 +546,7 @@ nav {
     border-radius: 20px;
     border: none; 
     cursor: pointer;
+    font-weight: bold;
 }
 
 .price__button:hover {
@@ -550,15 +558,23 @@ nav {
 
 .teal {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
 }
 
 .blue {
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     color: white;
+   
+} 
+
+.white {
+    color: #6415ff;
+    background-color: white;
 }
 
 .rose {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: white;
 }
 
 
@@ -599,7 +615,11 @@ nav {
 
 }
 
+.review__title {
+    margin: 10px 0;
+}
 
+.testimonials__review--wrapper
 
 
 
