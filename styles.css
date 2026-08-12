@@ -701,6 +701,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 7px;
 }
 
 .get__started--heading{
@@ -736,3 +737,6 @@ nav {
     color: #6415ff;
     background-color: white;
 }
+
+/* Footer */
+
