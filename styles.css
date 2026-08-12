@@ -14,7 +14,7 @@ html {
 
 .container {
     padding: 20px 0;
-    margin: 60px 0;
+    margin: 90px 0;
 }
 
 .row {
@@ -690,5 +690,49 @@ nav {
 }
 
 
+/* Get started */
+
+.get__started--wrapper {
+    background-color: #6415ff;
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get__started--heading{
+    font-size: 26px;
+    text-align: left;
+    width: 50%;
+}
+
+.get__started--btn__wrapper {
+    margin-left: 40px;
+}
 
 
+.get__started--btn {
+    margin-left: 20px;
+    padding: 15px 32px;
+    border-radius: 50px;    
+}
+
+.orange {
+    background-color: #f56565;
+}
+
+.orange:hover {
+    background-color: #ea5050;
+}
+
+.purple--btn {
+    border: 0.5px solid white;
+}
+
+.purple--btn:hover {
+    color: #6415ff;
+    background-color: white;
+}
