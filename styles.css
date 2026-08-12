@@ -740,3 +740,32 @@ nav {
 
 /* Footer */
 
+footer{
+    background: #6415ff;
+    color: white;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+
+}
+
+.footer__list--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding: 20px 0 40px 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 12px;
+    
+}
