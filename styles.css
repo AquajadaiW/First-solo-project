@@ -17,6 +17,9 @@ html {
     margin: 90px 0;
 }
 
+
+
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -786,11 +789,65 @@ footer{
 
 .footer__social--wrapper{
     border-top: 2px solid rgba(255, 255, 255, 0.37);
-    padding: 40px 0;
-    margin: 0px 40px;
+    padding: 10px 0;
+    margin: 0px 20px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.footer__logo--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.footer__logo{
+    width: 75%; 
+}
+
+.footer__img--wrapper{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo--p{
+    color: white;
+    font-weight: 800;
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+}
+
+.footer__social--links__wrapper{
+    width: 20%;
+}
+
+.footer__social--links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.social--link{
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color:#243e63;
+    transform: scale(0.8);
+    margin: 0 4px;
+}
+
+.footer__container{ 
+    margin: 0;
+    margin-top: 20px;
+}
