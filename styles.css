@@ -12,13 +12,14 @@ html {
     letter-spacing: 2px;
 }
 
+body{
+    margin: 0;
+    
+}
 .container {
     padding: 20px 0;
-    margin: 90px 0;
+    margin: 70px 0;
 }
-
-
-
 
 .row {
     width: 100%;
@@ -33,7 +34,7 @@ figure {
 }
 
 section {
-    padding : 0 30px;
+    padding : 0 10px;
 }
 .purple {
     color:#6415ff;
@@ -95,8 +96,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    
+  
 }
 
 .nav__img--wrapper{
@@ -123,16 +123,18 @@ nav {
     justify-content: space-between;
     gap: 52px;
     list-style: none;
-    padding-left: 28%;
+    padding-left: 188px;
    
 }
 
 .nav__links--right {
-    padding: 0 10px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
+
 .nav__link {
     font-size: 14px;
     font-weight: 600;
@@ -257,7 +259,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24vh;
+
 }
 
 
@@ -424,9 +426,8 @@ nav {
 
 .value__icon--wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
     font-size: 12px;
     margin: 0;
 }
@@ -454,6 +455,7 @@ nav {
 .value {
     width: 80%;
 }
+
 
 
 .section__img {
@@ -616,6 +618,10 @@ nav {
     height: 100%;
 }
 
+.test__p{
+    font-size: 18px;
+}
+
 .star__list {
     display: flex;
     align-items: center;
@@ -699,11 +705,11 @@ nav {
     background-color: #6415ff;
     width: 100%;
     max-width: 1200px;
-    padding: 80px 50px;
+    padding: 55px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 7px;
 }
 
