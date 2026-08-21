@@ -1072,6 +1072,20 @@ footer{
         font-size: 14px;
         font-weight: 600;
     }
+    
+    .btn {
+         width: 60%;
+    }
+
+    .left{
+         text-align: center;
+    }
+
+    .section__heading{
+        margin-bottom: 20px;
+    }
+
+
     .landing__sign-up--wrapper {
         flex-direction: column;
         height: auto; 
@@ -1121,5 +1135,51 @@ footer{
     .feature__p {
         line-height: 2;
         font-weight: 600;
+    }
+
+    .quality__work--wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    
+    .quality__work--para{
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+    }
+    
+
+    .quality__work--img-wrapper{
+        width: 140%;
+    }
+
+    .steps__wrapper{
+        flex-direction: column;
+        gap: 40px;
+       
+    }
+
+    .steps__img--wrapper{
+        justify-content: center;
+    }
+
+    .steps__desc--wrapper{
+        flex-direction: column;
+        padding: 0;
+        gap: 3px;
+    }
+
+     .steps__desc{
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .steps__numb{
+        padding: 0;
     }
 }
