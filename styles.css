@@ -390,6 +390,7 @@ nav {
     margin: 2px;
 }
 
+
 .feature__p {
     margin-top: 10px ;
 }
@@ -1101,17 +1102,24 @@ footer{
     }
 
     .features__row{
+        margin: 0 auto;
         max-width: 400px;
         width: 90%;
-        gap: 60px;
-        justify-content: center;
+        gap: 0;
     }
 
     .feature__wrapper {
+        border:2px dotted #ea505093;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         width: 100%;
+        padding: 15px;
+    }
+
+    .feature__p {
+        line-height: 2;
+        font-weight: 600;
     }
 }
