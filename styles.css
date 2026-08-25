@@ -17,9 +17,10 @@ body{
     margin: 0;
     
 }
+
 .container {
-    padding-bottom: 90px;
-    padding-top: 20px;
+    padding: 20px 15px 80px 15px;
+    width: 100%;
   
 }
 
@@ -94,10 +95,13 @@ p{
 
 /* Navigation styles */
 
-nav {
+nav { 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 4rem;
+ 
   
 }
 
@@ -106,14 +110,21 @@ nav {
     justify-content: center;
     align-items: end;
     max-width: 200px;
-    
 }
      
 
 .nav__img {
     width: 28%;
     padding: 0 7px;
+    
 }
+
+.nav__logo{
+    max-width: 520px;
+    width: 100%;
+    margin-right: 20px;
+}
+
 
 .nav__logo--name {
     color:#243e63;
@@ -123,9 +134,9 @@ nav {
 .nav__links {
     display: flex;
     justify-content: space-between;
-    gap: 52px;
+    gap: 3rem;
     list-style: none;
-    padding-left: 188px;
+    padding-left: 11rem;
    
 }
 
@@ -236,30 +247,32 @@ nav {
 
 #landing {
     display: flex;
-    padding-bottom: 90px;
+    padding: 0 60px 220px 60px;
     margin-top: 20px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .landing__content {
     max-width: 512px;
-    margin: 0 auto;
-    padding: 0 17px;
+    margin: 0 0 0 80px;
+    padding: 0 0 20px 17px;
     display: flex;
     justify-content: space-between; 
     flex-direction: column;
     width: 40%;
-    gap: 6px;
+    gap: 2px;
 }
 .landing__heading {
-    font-size: 34px;
+    font-size: 40px;
+    line-height: 1.5;
     margin: 0;
     color: black;
 }
 
 .landing__p {
     letter-spacing: 1.5;
-    font-size: 16px;
+    font-size: 20px;
     color:#243e63;
 }
 
@@ -336,12 +349,11 @@ nav {
 
 .landing__img--wrapper {
     display: flex;
-    justify-content: flex-end;
     width: 60%;
 }
 
 .landing__img {
-    width: 70%;
+    width: 90%;
 }
 
 
