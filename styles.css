@@ -1076,6 +1076,7 @@ footer{
 
 @media (max-width: 640px ){
 
+  
     section {
         padding: 0 32px;
     }
@@ -1091,6 +1092,16 @@ footer{
     
     .btn {
          width: 40%;
+         text-align: center;
+    }
+
+    .menu__links{
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu__btn {
+        width: 50%;
     }
 
     .left{
@@ -1253,4 +1264,82 @@ footer{
     }
 
 
+    .pricing__cards--wrapper{
+        width:100%;      
+        }
+
+    .pricing__desc{
+        max-width: 520px;
+    }
+
+    
+    .pricing__cards{
+        width: 70%;
+        }
+
+    .section__p {
+        max-width: 520px;
+        font-size: 16px;
+    }
+
+    .testimonials__wrapper{
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+    }
+
+    .star__list{
+        justify-content: center;
+    }
+
+    .testimonial__p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .review__wrapper{
+        flex-direction: column;
+        gap: 25px;
+        font-size: larger;
+    }
+
+    .reviewer{
+        flex-direction: column;
+    }
+
+    
+    .get__started--heading{
+        width: 80%;
+    }
+    .get__started--btn__wrapper{
+        width: 50%;
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .get__started--btn{
+        width: 100%;  
+    }
+
+    .footer__list--wrapper{
+        justify-content: center;
+    }
+
+    .footer__list{
+        margin: 20px;
+    }
+
+    .footer__social--wrapper{
+        padding-top: 60px;
+        flex-direction: column;
+    }
+
+    .footer__logo--wrapper{
+        width: 50%;
+    }
 }
