@@ -131,17 +131,23 @@ nav {
     font-weight: 800;
 }
 
+
+.nav__links--wrapper {
+display: flex;
+}
+
 .nav__links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 3rem;
     list-style: none;
-    padding-left: 11rem;
    
 }
 
 .nav__links--right {
     padding: 0 20px;
+    margin-left: 40px;
     display: flex;
     align-items: center;
     gap: 24px;
@@ -992,10 +998,19 @@ footer{
 
 @media (max-width: 1024px) {
 
+    .container{
+        margin-right: 20px;
+        margin-left: 20px; 
+    }
     .section__heading {
-        font-size: 30px;
+        font-size: 40px;
         margin: 0;
+        margin-bottom: 20px;
 
+    }
+    .section__p {
+        width: 70%;
+        margin: 0 auto;
     }
     .nav__links {
         display: none;
@@ -1009,6 +1024,7 @@ footer{
     }
 
     #landing {
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1016,7 +1032,7 @@ footer{
     }
 
     .landing__heading {
-        font-size: 28px;
+        font-size: 26px;
         margin: 0;
     }
 
@@ -1026,6 +1042,7 @@ footer{
 
     .landing__content {
         align-items: center;
+        width: 100%;
     }
 
     .landing__customer--heading{
@@ -1034,6 +1051,44 @@ footer{
 
     .landing__customers{
         width: 90%;
+    }
+
+    .landing__img--wrapper{
+        align-items: center;
+        width: 70%;
+        margin-left: 180px;
+    }
+
+    .features__row{
+        gap: 2rem; 
+    }
+    .feature_wrapper {
+        width: 50%;
+    }
+
+    .feature__p{
+        font-size: 16px;
+    }
+
+    .quality__work--wrapper {
+        gap: 2rem;
+    }
+   
+    .steps__wrapper{
+         width: 100%;
+         gap: 5rem;
+    }
+
+    .steps__img--wrapper{
+        width: 100%;
+    }
+
+    .steps__img{
+        width: 100%;
+    }
+
+    .steps__para{
+        width: 100%;
     }
 
     .values__desc--wrapper {
@@ -1059,6 +1114,21 @@ footer{
         width: 45%;
     }
 
+    .testimonials__wrapper{
+        gap: 20px;
+    }
+
+    .testimonials__img--wrapper{
+        width: 90%;
+    }
+    .testimonials__desc--wrapper{
+        margin-right: 20px;
+        width: 100%;
+        font-size: smaller;
+    }
+    .test__p{
+         width: 100%;
+    }
     .reviewer__img--wrapper{
         width: 35%;
     }
